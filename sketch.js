@@ -50,4 +50,7 @@ function keyPressed(){
 	if (keyCode === UP_ARROW){
 		Matter.Body.applyForce(paper.body,paper.body.position,{x:130,y:-145})
 	}
+	if (keyCode === DOWN_ARROW){
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:-130,y:145})
+	}
 }
